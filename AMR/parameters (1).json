@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_VM1_name": {
+            "value": null
+        },
+        "virtualMachines_VM2_name": {
+            "value": null
+        },
+        "loadBalancers_LB_Web_name": {
+            "value": null
+        },
+        "natGateways_NAT_Spoke_name": {
+            "value": null
+        },
+        "networkInterfaces_vm1359_name": {
+            "value": null
+        },
+        "networkInterfaces_vm2329_name": {
+            "value": null
+        },
+        "publicIPAddresses_VM1_ip_name": {
+            "value": null
+        },
+        "virtualNetworks_Hup_Vnet_name": {
+            "value": null
+        },
+        "virtualNetworks_Vnet_One_name": {
+            "value": null
+        },
+        "publicIPAddresses_nat_pip_name": {
+            "value": null
+        },
+        "routeTables_RT_Spoke_Egress_name": {
+            "value": null
+        },
+        "networkSecurityGroups_NSG_DB_name": {
+            "value": null
+        },
+        "networkSecurityGroups_NSG_App_name": {
+            "value": null
+        },
+        "networkSecurityGroups_NSG_Web_name": {
+            "value": null
+        },
+        "publicIPAddresses_Firewall_PIP_name": {
+            "value": null
+        },
+        "firewallPolicies_Hub_Firewall_Policy_name": {
+            "value": null
+        }
+    }
+}
